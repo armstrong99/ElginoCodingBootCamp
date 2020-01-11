@@ -1,0 +1,151 @@
+body {
+  /* set a font family of sans serif
+  and also a margin of 0 */
+}
+
+body #bg {
+/* 1. create a background selector with a url path of "../Assets/iphone-8.png", size of 'cover', color of  rgba(119, 220, 245, 0.089) and repeat of 'no-repeat'
+
+2. set a width and heightof 100%
+
+3. z-index of -1 to place at the back of every content
+
+4. set the position property to absolute */
+
+   
+}
+
+@media (min-width: 840px) {
+
+  /* 1. create a selector for the id '#bg'  inside the body text-align: 
+  2. set the background url to "../Assets/desktop.png", size to cover, repeat of no-repeat, color to ff6B;
+  3. and a transition of one seconds */
+    
+   
+}
+/* 
+1. create another selector for the Anchor tag inside the header tag
+
+2. set the color to  rgba(16, 179, 224, 0.999)
+
+
+3. add a text decoration property of none
+
+
+4. set the display to block
+
+5. transform the Anchor text to Uppercase with a font weight of bold */
+
+ 
+@media (min-width: 840px) {
+  main {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 50% auto;
+        grid-template-columns: 50% auto;
+        grid-template-areas: " primary card";
+  }
+}
+
+main section#card {
+  background: white;
+  padding: 20px;
+  margin: 1em auto;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  width: 80%;
+}
+
+@media (min-width: 840px) {
+  main section#card {
+        grid-template-areas: card;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin: 1em;
+  }
+}
+
+main section#card ul {
+  /* add a list-style-type of none to remove the doted bullets*/
+  margin: 0;
+  padding: 0;
+}
+
+main section#card ul li {
+  margin-bottom: 10px;
+}
+
+main section#card ul li span {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(119, 220, 245, 0.299);
+  /* set the border-radius to 50% to make it rounded */
+  margin-right: 10px;
+}
+
+main section#card ul li strong {
+  /* set the display here to inline-block */
+
+
+  margin-left: 40px;
+  margin-top: 10px;
+
+
+}
+
+main section#primary {
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+@media (min-width: 840px) {
+  main section#primary {
+    grid-area: primary;
+    text-align: left;
+    margin: 4em 0 0 4em;
+  }
+}
+
+main section#primary h1 {
+  font-size: 3em;
+  margin-top: 10px;
+  text-transform: uppercase;
+  color: #282828;
+}
+
+main section#primary p {
+  font-size: 1.4em;
+  color: #393950;
+
+
+  /* add a font family here of georgia and san serif */
+
+
+}
+/* 
+1. create a selector for the Anchor tag(s) inside the section tag with an id of 'primary'
+
+2. set its color to rgba(6, 32, 39, 0.999)
+
+3. and a text decoration of none and transform its text content to Uppercase with a border radius of 15px
+
+4. set the displat to block
+
+5. add a top margin of '50px' right of '0' bottom of 'auto' and left also '0'
+
+6. set also a padding of 15px with a font weight of bold
+
+7. align the text to center
+
+8. set the background color to ff6B */
+
+ 
+ 
+ 
