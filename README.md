@@ -1,1 +1,1 @@
-"# ElginoCodingBootCamp FrontEnd Tes with just HTML and CSS.  " 
+"# ElginoCodingBootCamp FrontEnd Test with just HTML and CSS.  " 
